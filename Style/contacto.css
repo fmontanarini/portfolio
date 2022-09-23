@@ -1,0 +1,248 @@
+body {
+    background-image: url(../Imagenes/Pagina\ Inicial.png);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1440;
+    height: 45px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+
+}
+
+h1 {
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 28px;
+    padding: 5px;
+}
+
+.opcionesnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 28px;
+}
+
+.opcionesnav>p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.opcionesnav>p:hover {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.opcionesnav>a:hover {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.line {
+    background-color: black;
+    height: 1.5px;
+    width: 100%;
+}
+
+a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 200px;
+
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin: 28px;
+}
+
+.subtitulo>p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+
+img {
+    width: 30%;
+}
+
+.subtitulo-bajo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 160px;
+}
+
+.subtitulo-bajo > p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 28px;
+    margin-right: 28px;
+    font-weight: 300}
+
+
+    .subtitulo > p{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: black; 
+    }
+
+    .subtitulo>p:hover{
+    color: #738D93;
+    }
+  
+
+.line2 {
+    background-color: black;
+    height: 1.5px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 33.3%;
+    border: 2px solid black;
+
+}
+
+.telefone>p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 350;
+    color: black;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 33.3%;
+    border: 2px solid black;
+}
+
+.email>p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 350;
+    color: black;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 33.3%;
+    border: 2px solid black;
+}
+
+.adress>p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 350;
+    color: black;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.adress:hover{
+    background-color:#738D93;
+    border: 3px solid black;
+}
+
+.email:hover{
+    background-color:#738D93;
+    border: 3px solid black;
+}
+
+.telefone:hover{
+    background-color:#738D93;
+    border: 3px solid black;
+}
+
+.adress>p:hover {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.email>p:hover {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+.telefone>p:hover {
+    color: white;
+
+}
+.telefonoprueba:hover{
+ background-color: black;
+ color:white
+}
+
+.telefonoprueba{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 350;
+    color: black;
+    font-size: 20px;
+}
+
+h1:hover {
+    background-color: black;
+    color: white;
+}
+
+.opcionesnav>p:hover {
+    background-color: black;
+    color: white;
+    
+}
+
+.opcionesnav>a:hover {
+    background-color: black;
+    color: white;
+    
+}
